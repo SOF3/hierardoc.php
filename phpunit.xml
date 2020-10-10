@@ -1,0 +1,13 @@
+<phpunit
+		xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+		xsi:noNamespaceSchemaLocation="https://schema.phpunit.de/7.3/phpunit.xsd"
+		processIsolation="false">
+	<filter>
+		<whitelist processUncoveredFilesFromWhitelist="true">
+			<directory suffix=".php">src</directory>
+		</whitelist>
+	</filter>
+	<testsuite name="Await">
+		<directory>tests</directory>
+	</testsuite>
+</phpunit>
