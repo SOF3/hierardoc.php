@@ -1,0 +1,27 @@
+{
+  "name": "sofe/hierardoc",
+  "description": "Hierarchical PHPDoc tag parsing",
+  "type": "library",
+  "require-dev": {
+    "phpstan/phpstan": "^0.12.48",
+    "phpunit/phpunit": "^8.2",
+    "infection/infection": "^0.17.6"
+  },
+  "license": "Apache-2.0",
+  "authors": [
+    {
+      "name": "SOFe",
+      "email": "sofe2038@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "SOFe\\Hierardoc\\": "src"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "SOFe\\Hierardoc\\": "tests"
+    }
+  }
+}
