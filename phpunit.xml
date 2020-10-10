@@ -7,7 +7,7 @@
 			<directory suffix=".php">src</directory>
 		</whitelist>
 	</filter>
-	<testsuite name="Await">
+	<testsuite name="hierardoc">
 		<directory>tests</directory>
 	</testsuite>
 </phpunit>
