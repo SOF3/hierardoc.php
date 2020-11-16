@@ -5,7 +5,7 @@
   "type": "library",
   "require-dev": {
     "phpstan/phpstan": "^0.12.48",
-    "phpunit/phpunit": "^8.2",
+    "phpunit/phpunit": "^8.2 || ^9.0",
     "infection/infection": "^0.17.6"
   },
   "license": "Apache-2.0",
