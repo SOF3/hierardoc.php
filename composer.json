@@ -6,7 +6,7 @@
   "require-dev": {
     "phpstan/phpstan": "^0.12.48",
     "phpunit/phpunit": "^8.2",
-    "infection/infection": "^0.17.6"
+    "infection/infection": "^0.17.6 || ^0.20.0"
   },
   "license": "Apache-2.0",
   "authors": [
